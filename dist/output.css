@@ -756,3 +756,5 @@ html {
 .filter{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+
+/* DO NOT do this as it can greatly increase css size.  We'll be using NextJS or React so makes more sense to use that type of component to reduce repitition*/
